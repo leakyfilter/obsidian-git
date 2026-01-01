@@ -11,12 +11,13 @@ This Obsidian vault is designed for:
 ## Folder Structure
 
 ```
-/Inbox          - Quick captures of articles/links to process later
+Dashboard.md    - Quick overview of current work and inbox tracking
 /Articles       - Processed article notes with summaries
 /Concepts       - Atomic notes on individual ideas/concepts
-/Maps          - MOCs (Maps of Content) connecting related concepts
-/Daily         - Daily notes for quick captures (optional)
-/Templates     - Note templates for consistency
+/Projects       - Ongoing personal projects and work
+/Maps           - MOCs (Maps of Content) connecting related concepts
+/Daily          - Daily notes for quick captures (optional)
+/Templates      - Note templates for consistency
 ```
 
 ## Workflows
