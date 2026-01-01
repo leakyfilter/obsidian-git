@@ -1,13 +1,13 @@
-# Instructions for Claude
+# Instructions for AI Agents
 
 ## Git Commit Guidelines
-- Never add self-citations or "Generated with Claude Code" attributions
+- Never add self-citations or "Generated with AI" attributions
 - Keep commit messages clean and focused on the changes made
 - Use conventional commit format when appropriate
 
 ## Article Fetching Workflow
-- Always try `WebFetch` first for any article URLs
-- If WebFetch fails (403, JavaScript required, etc.), automatically fall back to `mcp__claude-in-chrome` browser automation
+- Always try fetching articles first using available tools
+- If initial fetch fails (403, JavaScript required, etc.), automatically fall back to browser automation if available
 - This applies especially to Twitter/X articles and other JavaScript-heavy sites
 - No need to ask user - just handle the fallback automatically
 
@@ -32,10 +32,23 @@
    - Process it (fetch content, create article note in /Articles, extract concepts to /Concepts)
    - Add the processed article to Dashboard's "Articles In Progress" section
 3. User reads the processed article in their own time
-4. User removes article from "Articles In Progress" when done (either manually or by asking Claude)
+4. User removes article from "Articles In Progress" when done (either manually or by asking an agent)
 
 **Important**: Do not auto-update Dashboard without user request. It's their personal workspace.
 
 ## General Rules
 - Follow the workflow documented in README.md
 - Maintain consistency with existing vault structure and templates
+
+---
+
+## Agent-Specific Notes
+
+### Claude Code
+- Use `WebFetch` tool for fetching articles
+- Fall back to `mcp__claude-in-chrome` browser automation for JavaScript-heavy sites
+- Has access to full tool suite for file operations and web content
+
+### Other Agents
+- Add agent-specific notes as you integrate new agents
+- Document any tool differences or capabilities
