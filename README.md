@@ -24,7 +24,7 @@ Dashboard.md    - Quick overview of current work and inbox tracking
 
 ### 1. Article Capture & Processing
 1. Save article links to `/Inbox` with minimal metadata (URL, date found, initial interest)
-2. When ready to process: Use Claude to fetch the article, create a summary, extract key concepts
+2. When ready to process: Use AI agents to fetch the article, create a summary, extract key concepts
 3. Move processed notes to `/Articles` with standardized frontmatter
 
 ### 2. Concept Extraction
@@ -32,10 +32,10 @@ Dashboard.md    - Quick overview of current work and inbox tracking
 - Each concept note should be atomic (one idea per note)
 - Link concept notes to their source articles and related concepts using [[wikilinks]]
 
-### 3. Research Sessions with Claude
-- Provide article URLs → Claude fetches, summarizes, identifies key concepts
-- Claude creates properly formatted Obsidian notes with [[wikilinks]] between concepts
-- Claude suggests connections to existing concepts in the vault
+### 3. Research Sessions with AI Agents
+- Provide article URLs → agents fetch, summarize, identify key concepts
+- Agents create properly formatted Obsidian notes with [[wikilinks]] between concepts
+- Agents suggest connections to existing concepts in the vault
 
 ### 4. Periodic Organization
 - **Weekly**: Review `/Inbox`, process pending articles
@@ -47,13 +47,14 @@ Dashboard.md    - Quick overview of current work and inbox tracking
 - Example: "AI Ethics MOC" linking all ethics-related concepts and articles
 - MOCs serve as navigational hubs for exploring connected ideas
 
-## Working with Claude
+## Working with AI Agents
 
-When asking Claude to help with this vault:
-- Claude can read this README to understand the vault structure and workflows
-- Claude can fetch articles, create summaries, and generate properly formatted notes
-- Claude can suggest connections between new concepts and existing notes
-- Claude can help maintain organization and identify orphaned notes
+When asking AI agents to help with this vault:
+- Agents can read this README to understand the vault structure and workflows
+- Agents can fetch articles, create summaries, and generate properly formatted notes
+- Agents can suggest connections between new concepts and existing notes
+- Agents can help maintain organization and identify orphaned notes
+- See AGENTS.md for agent-specific instructions and capabilities
 
 ## Tags Convention
 
