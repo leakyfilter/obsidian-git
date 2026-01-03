@@ -5,6 +5,19 @@
 - Keep commit messages clean and focused on the changes made
 - Use conventional commit format when appropriate
 
+## Privacy & Security
+- **NEVER** commit private information to this repository
+- This is a public/open-source repository - assume all content will be publicly visible
+- Approved public information:
+  - Username: `leakyfilter`
+  - Email: `leakyfilter@icloud.com`
+- **DO NOT** include:
+  - API keys, tokens, or credentials
+  - Personal details (phone numbers, addresses, private emails)
+  - Proprietary or confidential information
+  - Any content not intended for public consumption
+- When in doubt, ask the user before committing potentially sensitive information
+
 ## Article Fetching Workflow
 - Always try fetching articles first using available tools
 - If initial fetch fails (403, JavaScript required, etc.), automatically fall back to browser automation if available
