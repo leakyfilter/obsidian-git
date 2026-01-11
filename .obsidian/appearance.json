@@ -1,5 +1,6 @@
 {
-  "cssTheme": "Obsidian Nord",
+  "cssTheme": "Minimal",
   "monospaceFontFamily": "Berkeley Mono",
-  "textFontFamily": "SF Pro,Helvetica"
+  "textFontFamily": "Berkeley Mono,SF Pro,Helvetica",
+  "baseFontSize": 13
 }
