@@ -7,7 +7,7 @@
 ### Articles in Progress
 - [ ] [[AI's Trillion-Dollar Opportunity - Context Graphs]]
 - [ ] [[GPU Architecture Evolution - Volta to Rubin]]
-- [ ] [[Advice for Generalists Joining Startups]]
+- [x] [[Advice for Generalists Joining Startups]]
 
 ### Active Projects
 - [ ] None
